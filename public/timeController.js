@@ -225,7 +225,7 @@ define(function (require) {
     $scope.formatRelative = formatRelative;
     // allow usage in layout template  
     $scope.enable_quick = params.enable_quick;
-    $scope.enable_relativ = params.enable_relativ;
+    $scope.enable_relative = params.enable_relative;
     $scope.enable_absolut = params.enable_absolut;
     $scope.enable_animation = params.enable_animation;
     $scope.enable_compact = params.enable_compact;

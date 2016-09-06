@@ -18,7 +18,7 @@ define(function (require) {
           editor: require('plugins/kibana-time-plugin/timeOptions.html'),
           defaults: {
               enable_quick: true,
-              enable_relativ: true,
+              enable_relative: true,
               enable_absolut: true,
               enable_animation: true,
               enable_compact: false
