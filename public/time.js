@@ -21,7 +21,6 @@ define(function (require) {
               enable_relative: true,
               enable_absolut: true,
               enable_animation: true,
-              enable_compact: false
           }
       },
       requiresSearch: false
