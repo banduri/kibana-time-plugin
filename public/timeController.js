@@ -223,6 +223,12 @@ define(function (require) {
       return parsed;
     }
     $scope.formatRelative = formatRelative;
+    // allow usage in layout template  
+    $scope.enable_quick = params.enable_quick;
+    $scope.enable_relativ = params.enable_relativ;
+    $scope.enable_absolut = params.enable_absolut;
+    $scope.enable_animation = params.enable_animation;
+    $scope.enable_compact = params.enable_compact;
 
     function getRelativeString() {
       return 'now-' + $scope.relative.count + $scope.relative.unit + ($scope.relative.round ? '/' + $scope.relative.unit : '');
